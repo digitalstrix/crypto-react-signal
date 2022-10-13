@@ -56,9 +56,11 @@ const Header = ({ ToggleBtn }) => {
                                     <img src={require("../../new-ui/assets/newlogo.png")} alt="" style={{ width: '100%' }} />
                                 </>)}
                             </Box>
+                            <Link to="https://cryptosignal.drazs.com/user/dashboard.php">
                             <Button sx={btnStyle} >
-                                LIVE BTC  FEED
+                                Login
                             </Button>
+                            </Link>
                             {/* <img src={require("../../new-ui/assets/logonewdark.png")} alt="" /> */}
                             <Box display="flex" gap="20px" alignItems="center">
                                 {!isMobile && (
@@ -142,9 +144,11 @@ const Header = ({ ToggleBtn }) => {
                     </Box>
 
                     <Fade left>
+                    <Link to="https://cryptosignal.drazs.com/user/dashboard.php">
                         <Button sx={btnStyle} >
-                            LIVE BTC  FEED
+                           Login
                         </Button>
+                    </Link>
                         <br />
                         <NavLink to="/"
                             style={({ isActive }) => ({
